@@ -1,0 +1,51 @@
+server:
+  port: 3001
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: user_service
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+      ribbon:
+        enabled: true
+  sql:
+    init:
+      schema-locations: classpath:store_user.sql
+      mode: always
+      platform: mysql
+  rabbitmq:
+    username: root
+    password: root
+    host: localhost
+    port:
+      - 15672
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/store_user?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  logging:
+    level:
+      root: info
+      com.example.Reposity: debug
+    file:
+      name: User.log
+      path: ./
+
+  integration:
+    management:
+      default-logging-enabled: true
+
+feign:
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50

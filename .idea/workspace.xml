@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58c94f72-68ab-4f7c-8195-1e0276755a66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-commons/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Param/UserCheckParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Utils/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-commons/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-gateway/src/main/java/org/example/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-gateway/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Exception/ParamException/UserNameEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Exception/User/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Repositry/UserRepositry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/resources/store_user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-user/src/test/java/org/example/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2N9nTHsK5tdbySrb3L39fKsAcrx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/fu/IdeaProjects/Shopping/shopify-user/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;93b97530e793b1544556ef43e7b441fa&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shopify-user/src/main/resources" />
+      <recent name="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shopify-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shopify-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58c94f72-68ab-4f7c-8195-1e0276755a66" name="Changes" comment="" />
+      <created>1679085171713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679085171713</updated>
+      <workItem from="1679085172977" duration="2885000" />
+      <workItem from="1679225334269" duration="11320000" />
+      <workItem from="1679238709525" duration="2033000" />
+      <workItem from="1679254276647" duration="9226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
