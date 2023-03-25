@@ -1,0 +1,28 @@
+server:
+  port: 3002
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: resources_service
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        service-name: ${spring.application.name}
+      ribbon:
+        enabled: true
+  rabbitmq:
+    username: root
+    password: root
+    host: localhost
+    port:
+      - 15672
+
+  mvc:
+    static-path-pattern: /public/**
+  web:
+    resources:
+      static-locations: classpath:/public/

@@ -1,13 +1,22 @@
 package org.example.Entity;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import org.hibernate.validator.constraints.Length;
+
+import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 
 public class User implements Serializable {
     public static final Long serialVersionUID = 1L;
 
     private String userId;
+    @Length(min = 6,max = 20)
     private String userName;
+    @NotBlank
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String password;
+    @NotBlank
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String userPhonenumber;
 
     public User() {

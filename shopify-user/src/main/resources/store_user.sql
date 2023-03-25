@@ -4,20 +4,20 @@ CREATE DATABASE store_user;
 USE store_user;
 
 
-DROP TABLE IF EXISTS `user`;
+DROP TABLE IF EXISTS `User`;
 
-CREATE TABLE `user` (
-  `user_id` CHAR(50) NOT NULL,
-  `user_name` CHAR(40) NOT NULL,
+CREATE TABLE `User` (
+  `userId` CHAR(50) NOT NULL,
+  `userName` CHAR(40) NOT NULL,
   `PASSWORD` CHAR(40) NOT NULL,
-  `user_phonenumber` CHAR(11) DEFAULT NULL,
-  PRIMARY KEY (`user_id`),
-  UNIQUE KEY `user_name` (`user_name`)
+  `userPhonenumber` CHAR(11) DEFAULT NULL,
+  PRIMARY KEY (`userId`),
+  UNIQUE KEY `user_name` (`userName`)
 ) ENGINE=INNODB DEFAULT CHARSET=utf8;
 
 /*Data for the table `user` */
 
-INSERT  INTO `user`(`user_id`,`user_name`,`PASSWORD`,`user_phonenumber`) VALUES
+INSERT  INTO `User`(`userId`,`userName`,`PASSWORD`,`userPhonenumber`) VALUES
                     ('65a978f9-357a-4338-afc7-8e06f5c6e9b7','admin123','123456','18514592456'),
                     ('a9efedcb-a552-4f87-95ed-1809516eff2e','admin111','8348898D532023C994920A16074C8387',NULL),
                     ('c50d64d5-309f-4739-b337-5884cc5178a2','admin222','DC483E80A7A0BD9EF71D8CF973673924',NULL),
@@ -31,13 +31,13 @@ INSERT  INTO `user`(`user_id`,`user_name`,`PASSWORD`,`user_phonenumber`) VALUES
 
 /*Table structure for table `address` */
 
-DROP TABLE IF EXISTS `address`;
+DROP TABLE IF EXISTS `Address`;
 
-CREATE TABLE `address` (
+CREATE TABLE `Address` (
   `id` varchar(50) NOT NULL,
   `linkman` varchar(20) NOT NULL,
   `phone` varchar(13) NOT NULL,
   `address` varchar(200) NOT NULL,
-  `user_id` int(11) DEFAULT NULL,
+  `userId` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

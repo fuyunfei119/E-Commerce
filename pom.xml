@@ -12,6 +12,10 @@
         <module>shopify-gateway</module>
         <module>shopify-commons</module>
         <module>shopify-user</module>
+        <module>shopify-resources</module>
+        <module>shopify-carousel</module>
+        <module>shopify-products</module>
+        <module>shopify-catagory</module>
     </modules>
 
     <parent>

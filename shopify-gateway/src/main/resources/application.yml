@@ -6,13 +6,34 @@ server:
 spring:
   application:
     name: gateway_service
-
   cloud:
     consul:
       host: localhost
       port: 8500
       discovery:
         service-name: ${spring.application.name}
+    gateway:
+      enabled: true
+      routes:
+        - id: user-service
+          uri: lb://user-service # lb = load balancing
+          predicates:
+            - Path=/user/**
+        - id: product-service
+          uri: lb://product-service
+          predicates:
+            - Path=/product/**
+        - id: resources-service
+          uri: lb://resources-service
+          predicates:
+            - Path=/public/**
+        - id: carousel-service
+          uri: lb://carousel-service
+          predicates:
+            - Path=/carousel/**
+
+    discovery:
+      enabled: true
 
   rabbitmq:
     username: root
@@ -20,18 +41,6 @@ spring:
     host: localhost
     port:
       - 15672
-
-    gateway:
-      routes:
-        - id: user-service
-          uri: lb://user-service # lb = load balancing
-          predicates:
-            - Path=/user/**
-
-        - id: product-service
-          uri: lb://product-service
-          predicates:
-            - Path=/product/**
 
   main:
     web-application-type: reactive

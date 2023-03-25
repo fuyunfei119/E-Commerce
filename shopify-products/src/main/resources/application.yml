@@ -1,0 +1,42 @@
+server:
+  port: 3004
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: product_service
+
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+      ribbon:
+        enabled: true
+
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:store_product.sql
+      platform: mysql
+
+  rabbitmq:
+    username: root
+    password: root
+    host: localhost
+    port:
+      - 15672
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/store_product?useSSL=false&characterEncoding=utf8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+feign:
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50
