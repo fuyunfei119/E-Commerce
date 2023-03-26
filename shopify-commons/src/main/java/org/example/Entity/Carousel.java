@@ -5,15 +5,15 @@ import java.io.Serializable;
 public class Carousel implements Serializable {
     public static final Long serialVersionUID = 1L;
     private String carouselId;
-    private String  imgPath;
-    private String  describes;
-    private Integer productId;
+    private String imgPath;
+    private String describes;
+    private String productId;
     private Integer priority;
 
     public Carousel() {
     }
 
-    public Carousel(String carouselId, String imgPath, String describes, Integer productId, Integer priority) {
+    public Carousel(String carouselId, String imgPath, String describes, String productId, Integer priority) {
         this.carouselId = carouselId;
         this.imgPath = imgPath;
         this.describes = describes;
@@ -45,11 +45,11 @@ public class Carousel implements Serializable {
         this.describes = describes;
     }
 
-    public Integer getProductId() {
+    public String getProductId() {
         return productId;
     }
 
-    public void setProductId(Integer productId) {
+    public void setProductId(String productId) {
         this.productId = productId;
     }
 
@@ -67,7 +67,7 @@ public class Carousel implements Serializable {
                 "carouselId='" + carouselId + '\'' +
                 ", imgPath='" + imgPath + '\'' +
                 ", describes='" + describes + '\'' +
-                ", productId=" + productId +
+                ", productId='" + productId + '\'' +
                 ", priority=" + priority +
                 '}';
     }

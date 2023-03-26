@@ -30,7 +30,7 @@ spring:
       - 15672
 
   datasource:
-    url: jdbc:mysql://localhost:3306/store_product?useSSL=false&characterEncoding=utf8
+    url: jdbc:mysql://localhost:3306/store_product?useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver

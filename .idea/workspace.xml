@@ -4,211 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58c94f72-68ab-4f7c-8195-1e0276755a66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-carousel/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-carousel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-carousel/src/main/java/org/example/CarouselApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-carousel/src/main/java/org/example/Controller/CarouselController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-carousel/src/main/java/org/example/Repositry/CarouselRepositry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-carousel/src/main/java/org/example/Service/CarouselService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-carousel/src/main/java/org/example/Service/Impl/CarouselServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-carousel/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-carousel/src/main/resources/store_carousel.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-carousel/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-catagory/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-catagory/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-catagory/src/main/java/org/example/CatagoryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-catagory/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-catagory/src/main/resources/store_category.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-catagory/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Entity/Carousel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Param/AddressListParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Param/AddressRemoveParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Param/UserLoginParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-products/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-products/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-products/src/main/java/org/example/ProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-products/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-products/src/main/resources/store_product.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-products/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/java/org/example/ResourcesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/accessory-promo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/accessory-promo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/charger-10000mAh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/charger-18w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/charger-30w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/charger-36w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/charger-60w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/charger-car-37w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/charger-car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/charger-tio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/protectingMen-Mi-CC9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/protectingMen-Mi-CC9e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/protectingShell-Mi-9-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/protectingShell-Mi-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/protectingShell-Mi-9SE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/protectingShell-Mi-CC9Pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/protectingShell-Mix-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/protectingShell-RedMi-K20&amp;pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/accessory/protectingShell-RedMi-K20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/AirCondition-F3W1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/AirCondition-V1C1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/MiTv-4A-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/MiTv-4A-65.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/MiTv-4C-55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/MiTv-4X-43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/MiTv-ArtTv-65.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/MiTv-E55A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/MiTv-E65A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/Washer-Pro-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/appliance-promo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/appliance/appliance-promo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/cms_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/cms_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/cms_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/cms_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/Mi-CC9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/Redmi-7A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/Redmi-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/Redmi-8A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/Redmi-Note8-pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/Redmi-Note8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/Redmi-k30-5G.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/Redmi-k30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/AirCondition-F3W1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/AirCondition-V1C1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4A 65-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4A-32-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4A-32-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4A-32-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4A-32-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4C 55-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4C 55-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4C 55-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4X 43-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4X 43-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-4X 43-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-ArtTv-65-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-E55A-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-E55A-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-E55A-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-E55A-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-E65A-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-E65A-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-E65A-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/MiTv-E65A-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 7A-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 7A-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 7A-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 7A-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 7A-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 8-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 8-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 8-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 8-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 8-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi 8A-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi K30 5G-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi K30 5G-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi K30 5G-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi K30 5G-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi K30 5G-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi Note8 Pro-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi Note8 Pro-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi Note8 Pro-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi Note8 Pro-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi Note8 Pro-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi Note8-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi Note8-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi Note8-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi Note8-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi Note8-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi-k30-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi-k30-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi-k30-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi-k30-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Redmi-k30-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Washer-Pro-10-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Washer-Pro-10-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Washer-Pro-10-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/Washer-Pro-10-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-10000mAh-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-10000mAh-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-10000mAh-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-10000mAh-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-10000mAh-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-18w-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-18w-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-18w-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-30w-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-30w-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-30w-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-30w-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-36w-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-36w-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-36w-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-36w-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-36w-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-60w-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-60w-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-60w-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-60w-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-37w-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-37w-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-37w-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-37w-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-37w-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-car-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-tio-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-tio-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-tio-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-tio-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/charger-tio-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/protectingMen-Mi-CC9-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/protectingMen-Mi-CC9e-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/protectingShell-Mi-9-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/protectingShell-Mi-9-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/protectingShell-Mi-9-red-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/protectingShell-Mi-9SE-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/protectingShell-Mi-CC9Pro-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/protectingShell-Mix-3-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/protectingShell-RedMi-K20&amp;pro-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/main/resources/public/imgs/phone/picture/protectingShell-RedMi-K20-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-resources/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Repositry/AddressRepositry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Service/Impl/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="58c94f72-68ab-4f7c-8195-1e0276755a66" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/shopify-catagory/src/main/java/org/example/Controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-catagory/src/main/java/org/example/Repositry/CategoryRepositry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-catagory/src/main/java/org/example/Service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-catagory/src/main/java/org/example/Service/Impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Clients/CategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Param/ProductHotParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Param/ProductPromoParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-products/src/main/java/org/example/Config/PageLimitConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-products/src/main/java/org/example/Controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-products/src/main/java/org/example/Repositry/ProductRepositry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-products/src/main/java/org/example/Service/Impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopify-products/src/main/java/org/example/Service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Utils/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-carousel/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-carousel/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-carousel/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-carousel/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-catagory/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-catagory/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-catagory/src/main/resources/store_category.sql" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-catagory/src/main/resources/store_category.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-catagory/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-catagory/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Entity/Carousel.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-commons/src/main/java/org/example/Entity/Carousel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopify-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Repositry/UserRepositry.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Repositry/UserRepositry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-user/src/main/java/org/example/Service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopify-user/src/main/resources/store_user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-user/src/main/resources/store_user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-products/src/main/java/org/example/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-products/src/main/java/org/example/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-products/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-products/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-products/src/main/resources/store_product.sql" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-products/src/main/resources/store_product.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-products/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-products/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify-resources/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopify-resources/src/test/java/org/example/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,6 +57,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2N9nTHsK5tdbySrb3L39fKsAcrx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -362,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CatagoryApplication" />
         <item itemvalue="Spring Boot.ProductApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.ResourcesApplication" />
+        <item itemvalue="Spring Boot.CatagoryApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -388,8 +213,18 @@
       <workItem from="1679693508800" duration="3596000" />
       <workItem from="1679737835098" duration="9381000" />
       <workItem from="1679750205084" duration="7135000" />
-      <workItem from="1679780503784" duration="340000" />
+      <workItem from="1679780503784" duration="2087000" />
+      <workItem from="1679827718427" duration="12691000" />
+      <workItem from="1679845098743" duration="10045000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1679781069212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679781069212</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,5 +232,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shopify-products/src/main/java/org/example/Service/Impl/ProductServiceImpl.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shopify-products/src/main/java/org/example/Service/Impl/ProductServiceImpl.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

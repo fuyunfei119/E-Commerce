@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: catagory_service
+    name: category_service
 
   cloud:
     consul:
@@ -30,10 +30,20 @@ spring:
       - 15672
 
   datasource:
-    url: jdbc:mysql://localhost:3306/store_category?useSSL=false&characterEncoding=utf8
+    url: jdbc:mysql://localhost:3306/store_category?useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  level:
+    sql: debug
+    root: info
+    org.example.Repositry: debug
 
 feign:
   httpclient:
